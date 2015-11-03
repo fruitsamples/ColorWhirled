@@ -1,0 +1,818 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 38;
+	objects = {
+		080E96DAFE201CDB7F000001 = {
+			fileRef = 2A37F4B6FDCFA73011CA2CEA;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		080E96DBFE201CDB7F000001 = {
+			fileRef = 2A37F4B4FDCFA73011CA2CEA;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		089C165FFE840EACC02AAC07 = {
+			children = (
+				089C1660FE840EACC02AAC07,
+			);
+			isa = PBXVariantGroup;
+			name = InfoPlist.strings;
+			refType = 4;
+		};
+		089C1660FE840EACC02AAC07 = {
+			fileEncoding = 10;
+			isa = PBXFileReference;
+			name = English;
+			path = English.lproj/InfoPlist.strings;
+			refType = 4;
+		};
+//080
+//081
+//082
+//083
+//084
+//100
+//101
+//102
+//103
+//104
+		1058C7A7FEA54F5311CA2CBB = {
+			isa = PBXFrameworkReference;
+			name = Cocoa.framework;
+			path = /System/Library/Frameworks/Cocoa.framework;
+			refType = 0;
+		};
+		1058C7A9FEA54F5311CA2CBB = {
+			fileRef = 1058C7A7FEA54F5311CA2CBB;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+//100
+//101
+//102
+//103
+//104
+//170
+//171
+//172
+//173
+//174
+		1758732AFF379DA111CA2CBB = {
+			isa = PBXApplicationReference;
+			path = ColorWhirled.app;
+			refType = 3;
+		};
+//170
+//171
+//172
+//173
+//174
+//190
+//191
+//192
+//193
+//194
+		19C28FB0FE9D524F11CA2CBB = {
+			children = (
+				1758732AFF379DA111CA2CBB,
+			);
+			isa = PBXGroup;
+			name = Products;
+			refType = 4;
+		};
+//190
+//191
+//192
+//193
+//194
+//2A0
+//2A1
+//2A2
+//2A3
+//2A4
+		2A37F4A9FDCFA73011CA2CEA = {
+			buildStyles = (
+				4A9504D0FFE6A4CB11CA0CBA,
+				4A9504D1FFE6A4CB11CA0CBA,
+			);
+			hasScannedForEncodings = 1;
+			isa = PBXProject;
+			mainGroup = 2A37F4AAFDCFA73011CA2CEA;
+			projectDirPath = "";
+			targets = (
+				2A37F4C6FDCFA73011CA2CEA,
+			);
+		};
+		2A37F4AAFDCFA73011CA2CEA = {
+			children = (
+				2A37F4B0FDCFA73011CA2CEA,
+				F6C4FA830257008201A87B37,
+				F6C4FA840257008201A87B37,
+				F6D14F960273EB410183C3DA,
+				F6D14F970273EB410183C3DA,
+				F6D11493027532B801153AC5,
+				F6D11494027532B801153AC5,
+				B829A89E027DFD3D64CA254D,
+				B829A89F027DFD3D64CA254D,
+				F63F5B9E02DBCD6201E755A7,
+				F63F5B9F02DBCD6201E755A7,
+				B829A8A2027E293864CA254D,
+				F61B5EA5027D388201E9AB21,
+				F61B5E8F027D35CE01E9AB21,
+				2A37F4B8FDCFA73011CA2CEA,
+				2A37F4C3FDCFA73011CA2CEA,
+				19C28FB0FE9D524F11CA2CBB,
+			);
+			isa = PBXGroup;
+			name = JpegViewer;
+			path = "";
+			refType = 4;
+		};
+		2A37F4ACFDCFA73011CA2CEA = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = ImageDoc.m;
+			path = Image/ImageDoc.m;
+			refType = 2;
+		};
+		2A37F4AEFDCFA73011CA2CEA = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = ImageDoc.h;
+			path = Image/ImageDoc.h;
+			refType = 2;
+		};
+		2A37F4B0FDCFA73011CA2CEA = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = main.m;
+			refType = 4;
+		};
+		2A37F4B4FDCFA73011CA2CEA = {
+			children = (
+				2A37F4B5FDCFA73011CA2CEA,
+			);
+			isa = PBXVariantGroup;
+			name = ImageDoc.nib;
+			path = "";
+			refType = 4;
+		};
+		2A37F4B5FDCFA73011CA2CEA = {
+			isa = PBXFileReference;
+			name = ImageDoc.nib;
+			path = English.lproj/ImageDoc.nib;
+			refType = 4;
+		};
+		2A37F4B6FDCFA73011CA2CEA = {
+			children = (
+				2A37F4B7FDCFA73011CA2CEA,
+			);
+			isa = PBXVariantGroup;
+			name = MainMenu.nib;
+			path = "";
+			refType = 4;
+		};
+		2A37F4B7FDCFA73011CA2CEA = {
+			isa = PBXFileReference;
+			name = English;
+			path = English.lproj/MainMenu.nib;
+			refType = 4;
+		};
+		2A37F4B8FDCFA73011CA2CEA = {
+			children = (
+				F6908A97027E8B5F01A87B37,
+				2A37F4B6FDCFA73011CA2CEA,
+				2A37F4B4FDCFA73011CA2CEA,
+				B829A8A7027E39AD64CA254D,
+				089C165FFE840EACC02AAC07,
+			);
+			isa = PBXGroup;
+			path = Resources;
+			refType = 4;
+		};
+		2A37F4C3FDCFA73011CA2CEA = {
+			children = (
+				1058C7A7FEA54F5311CA2CBB,
+				2A37F4C5FDCFA73011CA2CEA,
+				2A37F4C4FDCFA73011CA2CEA,
+				F6C4FBC40258115001A87B37,
+				F6C4FBC60258117101A87B37,
+				F61B5EC0027D39C501E9AB21,
+			);
+			isa = PBXGroup;
+			name = Frameworks;
+			path = "";
+			refType = 4;
+		};
+		2A37F4C4FDCFA73011CA2CEA = {
+			isa = PBXFrameworkReference;
+			name = AppKit.framework;
+			path = /System/Library/Frameworks/AppKit.framework;
+			refType = 0;
+		};
+		2A37F4C5FDCFA73011CA2CEA = {
+			isa = PBXFrameworkReference;
+			name = Foundation.framework;
+			path = /System/Library/Frameworks/Foundation.framework;
+			refType = 0;
+		};
+		2A37F4C6FDCFA73011CA2CEA = {
+			buildPhases = (
+				2A37F4C7FDCFA73011CA2CEA,
+				2A37F4C9FDCFA73011CA2CEA,
+				2A37F4CEFDCFA73011CA2CEA,
+				2A37F4D1FDCFA73011CA2CEA,
+			);
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = "";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = ColorWhirled;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+				WRAPPER_EXTENSION = app;
+			};
+			dependencies = (
+			);
+			isa = PBXApplicationTarget;
+			name = ColorWhirled;
+			productInstallPath = "$(HOME)/Applications";
+			productName = JpegViewer;
+			productReference = 1758732AFF379DA111CA2CBB;
+			productSettingsXML = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>
+<!DOCTYPE plist PUBLIC \"-//Apple Computer//DTD PLIST 1.0//EN\" \"http://www.apple.com/DTDs/PropertyList-1.0.dtd\">
+<plist version=\"1.0\">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleDocumentTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>JPG</string>
+				<string>jpg</string>
+				<string>JPEG</string>
+				<string>jpeg</string>
+			</array>
+			<key>CFBundleTypeName</key>
+			<string>JPEG Document</string>
+			<key>CFBundleTypeOSTypes</key>
+			<array>
+				<string>JPEG</string>
+				<string>JFIF</string>
+			</array>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+			<key>NSDocumentClass</key>
+			<string>ImageDoc</string>
+		</dict>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>TIF</string>
+				<string>tif</string>
+				<string>TIFF</string>
+				<string>tiff</string>
+			</array>
+			<key>CFBundleTypeName</key>
+			<string>TIFF Document</string>
+			<key>CFBundleTypeOSTypes</key>
+			<array>
+				<string>TIFF</string>
+				<string>tiff</string>
+			</array>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+			<key>NSDocumentClass</key>
+			<string>ImageDoc</string>
+		</dict>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>mov</string>
+				<string>MOV</string>
+				<string>mpg</string>
+				<string>MPG</string>
+				<string>avi</string>
+				<string>AVI</string>
+			</array>
+			<key>CFBundleTypeName</key>
+			<string>QuickTime Document</string>
+			<key>CFBundleTypeOSTypes</key>
+			<array>
+				<string>MooV</string>
+			</array>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+			<key>NSDocumentClass</key>
+			<string>MovieDoc</string>
+		</dict>
+		<dict>
+			<key>CFBundleTypeExtensions</key>
+			<array>
+				<string>png</string>
+				<string>PNG</string>
+			</array>
+			<key>CFBundleTypeName</key>
+			<string>PNG Document</string>
+			<key>CFBundleTypeRole</key>
+			<string>Viewer</string>
+			<key>NSDocumentClass</key>
+			<string>ImageDoc</string>
+		</dict>
+	</array>
+	<key>CFBundleExecutable</key>
+	<string>ColorWhirled</string>
+	<key>CFBundleGetInfoString</key>
+	<string>ColorWhirled 1.0, Copyright 2003 Apple Computer, Inc.</string>
+	<key>CFBundleIconFile</key>
+	<string>ColorWhirled.icns</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.apple. ColorWhirled</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>ColorWhirled</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleSignature</key>
+	<string>wirl</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>10.3.0</string>
+	<key>NSMainNibFile</key>
+	<string>MainMenu</string>
+	<key>NSPrincipalClass</key>
+	<string>NSApplication</string>
+</dict>
+</plist>
+";
+		};
+		2A37F4C7FDCFA73011CA2CEA = {
+			buildActionMask = 2147483647;
+			files = (
+				2A37F4C8FDCFA73011CA2CEA,
+				F6C4FA850257008201A87B37,
+				F6D14F980273EB410183C3DA,
+				F6D11495027532B801153AC5,
+				F6F28FD30279353701CEDA3C,
+				F61B5E97027D35CE01E9AB21,
+				F61B5EB2027D388201E9AB21,
+				B829A8A0027DFD3D64CA254D,
+				B829A8A5027E385664CA254D,
+				F63F5BA002DBCD6201E755A7,
+			);
+			isa = PBXHeadersBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A37F4C8FDCFA73011CA2CEA = {
+			fileRef = 2A37F4AEFDCFA73011CA2CEA;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		2A37F4C9FDCFA73011CA2CEA = {
+			buildActionMask = 2147483647;
+			files = (
+				080E96DAFE201CDB7F000001,
+				080E96DBFE201CDB7F000001,
+				F6D14F950273E7A70183C3DA,
+				B829A8A9027E39AD64CA254D,
+				F6908A98027E8B9401A87B37,
+			);
+			isa = PBXResourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A37F4CEFDCFA73011CA2CEA = {
+			buildActionMask = 2147483647;
+			files = (
+				2A37F4CFFDCFA73011CA2CEA,
+				2A37F4D0FDCFA73011CA2CEA,
+				F6C4FA860257008201A87B37,
+				F6D14F990273EB410183C3DA,
+				F6D11496027532B801153AC5,
+				F6F28FD40279353701CEDA3C,
+				F61B5E9B027D35CE01E9AB21,
+				F61B5EB8027D388201E9AB21,
+				B829A8A1027DFD3D64CA254D,
+				B829A8A6027E385664CA254D,
+				F63F5BA102DBCD6201E755A7,
+			);
+			isa = PBXSourcesBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A37F4CFFDCFA73011CA2CEA = {
+			fileRef = 2A37F4ACFDCFA73011CA2CEA;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+				);
+			};
+		};
+		2A37F4D0FDCFA73011CA2CEA = {
+			fileRef = 2A37F4B0FDCFA73011CA2CEA;
+			isa = PBXBuildFile;
+			settings = {
+				ATTRIBUTES = (
+				);
+			};
+		};
+		2A37F4D1FDCFA73011CA2CEA = {
+			buildActionMask = 2147483647;
+			files = (
+				1058C7A9FEA54F5311CA2CBB,
+				F6C4FBC50258115001A87B37,
+				F6C4FBC70258117101A87B37,
+				F61B5EC1027D39C501E9AB21,
+			);
+			isa = PBXFrameworksBuildPhase;
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+//2A0
+//2A1
+//2A2
+//2A3
+//2A4
+//4A0
+//4A1
+//4A2
+//4A3
+//4A4
+		4A9504D0FFE6A4CB11CA0CBA = {
+			buildRules = (
+			);
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				OPTIMIZATION_CFLAGS = "-O0";
+			};
+			isa = PBXBuildStyle;
+			name = Development;
+		};
+		4A9504D1FFE6A4CB11CA0CBA = {
+			buildRules = (
+			);
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+			};
+			isa = PBXBuildStyle;
+			name = Deployment;
+		};
+//4A0
+//4A1
+//4A2
+//4A3
+//4A4
+//B80
+//B81
+//B82
+//B83
+//B84
+		B829A89E027DFD3D64CA254D = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = DividerView.h;
+			refType = 4;
+		};
+		B829A89F027DFD3D64CA254D = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = DividerView.m;
+			refType = 4;
+		};
+		B829A8A0027DFD3D64CA254D = {
+			fileRef = B829A89E027DFD3D64CA254D;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B829A8A1027DFD3D64CA254D = {
+			fileRef = B829A89F027DFD3D64CA254D;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B829A8A2027E293864CA254D = {
+			children = (
+				2A37F4AEFDCFA73011CA2CEA,
+				2A37F4ACFDCFA73011CA2CEA,
+				F6F28FD10279353701CEDA3C,
+				F6F28FD20279353701CEDA3C,
+			);
+			isa = PBXGroup;
+			path = Image;
+			refType = 4;
+		};
+		B829A8A3027E385664CA254D = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = MovieDoc.h;
+			refType = 4;
+		};
+		B829A8A4027E385664CA254D = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = MovieDoc.m;
+			refType = 4;
+		};
+		B829A8A5027E385664CA254D = {
+			fileRef = B829A8A3027E385664CA254D;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B829A8A6027E385664CA254D = {
+			fileRef = B829A8A4027E385664CA254D;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		B829A8A7027E39AD64CA254D = {
+			children = (
+				B829A8A8027E39AD64CA254D,
+			);
+			isa = PBXVariantGroup;
+			name = MovieDoc.nib;
+			path = "";
+			refType = 4;
+		};
+		B829A8A8027E39AD64CA254D = {
+			isa = PBXFileReference;
+			name = English;
+			path = English.lproj/MovieDoc.nib;
+			refType = 4;
+		};
+		B829A8A9027E39AD64CA254D = {
+			fileRef = B829A8A7027E39AD64CA254D;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+//B80
+//B81
+//B82
+//B83
+//B84
+//F60
+//F61
+//F62
+//F63
+//F64
+		F61B5E8F027D35CE01E9AB21 = {
+			children = (
+				F61B5E91027D35CE01E9AB21,
+				F61B5E90027D35CE01E9AB21,
+			);
+			isa = PBXGroup;
+			path = Components;
+			refType = 4;
+		};
+		F61B5E90027D35CE01E9AB21 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = OpenGLCodec.m;
+			refType = 4;
+		};
+		F61B5E91027D35CE01E9AB21 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = OpenGLCodecDispatch.h;
+			refType = 4;
+		};
+		F61B5E97027D35CE01E9AB21 = {
+			fileRef = F61B5E91027D35CE01E9AB21;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F61B5E9B027D35CE01E9AB21 = {
+			fileRef = F61B5E90027D35CE01E9AB21;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F61B5EA5027D388201E9AB21 = {
+			children = (
+				B829A8A3027E385664CA254D,
+				B829A8A4027E385664CA254D,
+				F61B5EA6027D388201E9AB21,
+				F61B5EA7027D388201E9AB21,
+			);
+			isa = PBXGroup;
+			path = Movie;
+			refType = 4;
+		};
+		F61B5EA6027D388201E9AB21 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = MovieManipView.h;
+			refType = 4;
+		};
+		F61B5EA7027D388201E9AB21 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = MovieManipView.m;
+			refType = 4;
+		};
+		F61B5EB2027D388201E9AB21 = {
+			fileRef = F61B5EA6027D388201E9AB21;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F61B5EB8027D388201E9AB21 = {
+			fileRef = F61B5EA7027D388201E9AB21;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F61B5EC0027D39C501E9AB21 = {
+			isa = PBXFrameworkReference;
+			name = OpenGL.framework;
+			path = /System/Library/Frameworks/OpenGL.framework;
+			refType = 0;
+		};
+		F61B5EC1027D39C501E9AB21 = {
+			fileRef = F61B5EC0027D39C501E9AB21;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F63F5B9E02DBCD6201E755A7 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = Profile.h;
+			refType = 4;
+		};
+		F63F5B9F02DBCD6201E755A7 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = Profile.m;
+			refType = 4;
+		};
+		F63F5BA002DBCD6201E755A7 = {
+			fileRef = F63F5B9E02DBCD6201E755A7;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F63F5BA102DBCD6201E755A7 = {
+			fileRef = F63F5B9F02DBCD6201E755A7;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F6908A97027E8B5F01A87B37 = {
+			isa = PBXFileReference;
+			path = ColorWhirled.icns;
+			refType = 4;
+		};
+		F6908A98027E8B9401A87B37 = {
+			fileRef = F6908A97027E8B5F01A87B37;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F6C4FA830257008201A87B37 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = AppDelegate.h;
+			refType = 4;
+		};
+		F6C4FA840257008201A87B37 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = AppDelegate.m;
+			refType = 4;
+		};
+		F6C4FA850257008201A87B37 = {
+			fileRef = F6C4FA830257008201A87B37;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F6C4FA860257008201A87B37 = {
+			fileRef = F6C4FA840257008201A87B37;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F6C4FBC40258115001A87B37 = {
+			isa = PBXFrameworkReference;
+			name = ApplicationServices.framework;
+			path = /System/Library/Frameworks/ApplicationServices.framework;
+			refType = 0;
+		};
+		F6C4FBC50258115001A87B37 = {
+			fileRef = F6C4FBC40258115001A87B37;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F6C4FBC60258117101A87B37 = {
+			isa = PBXFrameworkReference;
+			name = QuickTime.framework;
+			path = /System/Library/Frameworks/QuickTime.framework;
+			refType = 0;
+		};
+		F6C4FBC70258117101A87B37 = {
+			fileRef = F6C4FBC60258117101A87B37;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F6D11493027532B801153AC5 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = ManipWorld.h;
+			refType = 4;
+		};
+		F6D11494027532B801153AC5 = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = ManipWorld.m;
+			refType = 4;
+		};
+		F6D11495027532B801153AC5 = {
+			fileRef = F6D11493027532B801153AC5;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F6D11496027532B801153AC5 = {
+			fileRef = F6D11494027532B801153AC5;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F6D14F950273E7A70183C3DA = {
+			fileRef = 089C165FFE840EACC02AAC07;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F6D14F960273EB410183C3DA = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = ManipPanel.h;
+			refType = 4;
+		};
+		F6D14F970273EB410183C3DA = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			path = ManipPanel.m;
+			refType = 4;
+		};
+		F6D14F980273EB410183C3DA = {
+			fileRef = F6D14F960273EB410183C3DA;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F6D14F990273EB410183C3DA = {
+			fileRef = F6D14F970273EB410183C3DA;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F6F28FD10279353701CEDA3C = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = ImageManipView.h;
+			path = Image/ImageManipView.h;
+			refType = 2;
+		};
+		F6F28FD20279353701CEDA3C = {
+			fileEncoding = 30;
+			isa = PBXFileReference;
+			name = ImageManipView.m;
+			path = Image/ImageManipView.m;
+			refType = 2;
+		};
+		F6F28FD30279353701CEDA3C = {
+			fileRef = F6F28FD10279353701CEDA3C;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+		F6F28FD40279353701CEDA3C = {
+			fileRef = F6F28FD20279353701CEDA3C;
+			isa = PBXBuildFile;
+			settings = {
+			};
+		};
+	};
+	rootObject = 2A37F4A9FDCFA73011CA2CEA;
+}

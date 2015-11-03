@@ -1,0 +1,54 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {toggleMagnifier = id; }; 
+            CLASS = AppDelegate; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = AppFirst; LANGUAGE = ObjC; SUPERCLASS = NSResponder; }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {
+                buttonAction = id; 
+                chooseOther = id; 
+                limitOnAction = id; 
+                popupAction = id; 
+                sliderAction = id; 
+            }; 
+            CLASS = ManipPanel; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                "_absPop" = NSPopUpButton; 
+                "_dstPop" = NSPopUpButton; 
+                "_groupAbs" = ManipPanelGroup; 
+                "_groupSrc" = ManipPanelGroup; 
+                "_prfPop" = NSPopUpButton; 
+                "_sBrightBlu" = NSSlider; 
+                "_sBrightDks" = NSSlider; 
+                "_sBrightGrn" = NSSlider; 
+                "_sBrightLts" = NSSlider; 
+                "_sBrightMds" = NSSlider; 
+                "_sBrightRed" = NSSlider; 
+                "_sHue" = NSSlider; 
+                "_sHueBlu" = NSSlider; 
+                "_sHueGrn" = NSSlider; 
+                "_sHueRed" = NSSlider; 
+                "_sLimitHi" = NSSlider; 
+                "_sLimitLo" = NSSlider; 
+                "_sLimitOn" = NSButton; 
+                "_sSat" = NSSlider; 
+                "_sSatBlu" = NSSlider; 
+                "_sSatGrn" = NSSlider; 
+                "_sSatRed" = NSSlider; 
+                "_sTintDks" = NSSlider; 
+                "_sTintLts" = NSSlider; 
+                "_sTintMds" = NSSlider; 
+                "_srcPop" = NSPopUpButton; 
+            }; 
+            SUPERCLASS = NSPanel; 
+        }, 
+        {CLASS = ManipPanelGroup; LANGUAGE = ObjC; SUPERCLASS = NSView; }
+    ); 
+    IBVersion = 1; 
+}

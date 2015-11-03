@@ -1,0 +1,14 @@
+{
+    IBClasses = (
+        {CLASS = DividerView; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            CLASS = MovieDoc; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {_mView = MovieManipView; }; 
+            SUPERCLASS = NSDocument; 
+        }, 
+        {CLASS = MovieManipView; LANGUAGE = ObjC; SUPERCLASS = NSOpenGLView; }
+    ); 
+    IBVersion = 1; 
+}

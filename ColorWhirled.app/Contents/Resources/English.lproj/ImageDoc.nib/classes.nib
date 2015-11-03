@@ -1,0 +1,15 @@
+{
+    IBClasses = (
+        {CLASS = DividerView; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {accessoryPopupHit = id; }; 
+            CLASS = ImageDoc; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {"_accPop" = NSPopUpButton; "_accView" = NSView; "_mView" = ImageManipView; }; 
+            SUPERCLASS = NSDocument; 
+        }, 
+        {CLASS = ImageManipView; LANGUAGE = ObjC; SUPERCLASS = NSView; }
+    ); 
+    IBVersion = 1; 
+}
